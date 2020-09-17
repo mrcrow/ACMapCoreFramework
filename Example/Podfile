@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ACMapCoreFramework_Example' do
+  pod 'ACMapCoreFramework', :path => '../'
+
+  target 'ACMapCoreFramework_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
