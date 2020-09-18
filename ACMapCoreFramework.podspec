@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Base framework for using map components of AICity Tech
                        DESC
 
-  s.homepage         = 'https://github.com/mrcrow/ACMapCoreFramework'
+  s.homepage         = 'https://github.com/AICity-R-D/ACMapCoreFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mrcrow' => 'wwz.michael@gmail.com' }
-  s.source           = { :git => 'https://github.com/mrcrow/ACMapCoreFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AICity-R-D/ACMapCoreFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
