@@ -39,7 +39,7 @@ Base framework for using map components of AICity Tech
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Mapbox-iOS-SDK', '~> 5.7.0'
+  s.dependency 'Mapbox-iOS-SDK'
   s.dependency 'YYKit'
   s.dependency 'Reachability'
 end
