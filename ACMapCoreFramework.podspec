@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ACMapCoreFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Base framework for using map components'
 
 # This description is used to generate tags and improve search results.
